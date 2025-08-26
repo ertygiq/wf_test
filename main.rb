@@ -1,2 +1,2 @@
 puts 'hello'
-p ENV
+p ARGV

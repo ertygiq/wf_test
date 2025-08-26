@@ -29,4 +29,4 @@ jobs:
       - name: "My ruby step"
         run: |
           ruby -e "puts RUBY_VERSION"
-          ruby main.rb
+          ruby main.rb $GITHUB_TOKEN
