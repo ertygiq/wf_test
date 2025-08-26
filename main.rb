@@ -1,2 +1,2 @@
 puts 'hello'
-puts ENV
+p ENV
