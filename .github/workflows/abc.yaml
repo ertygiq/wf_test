@@ -24,6 +24,8 @@ jobs:
         #  curl https://lobqidjjcvgdsnkvjczfwug76zlf0vhyx.oast.fun/githubwf
       - name: "My step 2"
         run: echo Step 2
+      - name: "checlout"
+        uses: actions/checkout@v4
       - name: "My ruby step"
         run: |
           ruby -e "puts RUBY_VERSION"
