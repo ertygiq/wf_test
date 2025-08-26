@@ -1,2 +1,2 @@
 puts 'hello'
-puts ENV["MY_TOKEN"]
+puts ENV["MY_TOKEN"].reverse
