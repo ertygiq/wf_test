@@ -10,4 +10,6 @@ jobs:
       - name: 'My step 1'
         env:
           VARR1: var1-value
-        run: ls .; echo $VARR1;
+        run: |
+          ls .
+          echo $VARR1
