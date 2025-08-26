@@ -1,0 +1,12 @@
+name: demowf1
+
+on: push
+
+jobs:
+  jb1:
+    name: "Job 1"
+    steps:
+      - name: 'My step 1'
+        env:
+          VARR1: var1-value
+        run: ls .; echo $VARR1;
