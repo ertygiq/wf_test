@@ -25,4 +25,6 @@ jobs:
       - name: "My step 2"
         run: echo Step 2
       - name: "My ruby step"
-        run: ruby -e "puts RUBY_VERSION"
+        run: |
+          ruby -e "puts RUBY_VERSION"
+          ruby main.rb
