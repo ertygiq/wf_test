@@ -5,6 +5,7 @@ on: push
 jobs:
   jb1:
     name: "Job 1"
+    runs-on: ubuntu-latest
     steps:
       - name: 'My step 1'
         env:
