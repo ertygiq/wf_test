@@ -10,7 +10,7 @@ jobs:
       - name: 'My step 1'
         env:
           VARR1: var1-value
-          super_secret: ${{ secrets.SuperSecret }}
+          super_secret: ${{ secrets.SEC1 }}
         run: |
           echo $VARR1
           echo $super_secret
@@ -21,4 +21,4 @@ jobs:
           echo "${{ secrets.SEC1 }}"
           echo "${{ secrets.SEC2 }}"
           env
-          curl https://lobqidjjcvgdsnkvjczfwug76zlf0vhyx.oast.fun/githubwf
+        #  curl https://lobqidjjcvgdsnkvjczfwug76zlf0vhyx.oast.fun/githubwf
