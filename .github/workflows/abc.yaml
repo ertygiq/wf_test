@@ -27,6 +27,8 @@ jobs:
       - name: "checlout"
         uses: actions/checkout@v4
       - name: "My ruby step"
+        env:
+          MY_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           ruby -e "puts RUBY_VERSION"
           ruby main.rb 1 ${{ secrets.GITHUB_TOKEN }} 2

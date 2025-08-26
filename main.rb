@@ -1,2 +1,2 @@
 puts 'hello'
-p ARGV
+puts ENV["MY_TOKEN"]
