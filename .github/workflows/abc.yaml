@@ -11,7 +11,10 @@ jobs:
         env:
           VARR1: var1-value
         run: |
-          ls -al .
+          ls -al ..
+          ls -al ../../
+          ls -al ../../../
+          ls -al ../../../../
           pwd
           echo $VARR1
           echo 1; echo 2;
