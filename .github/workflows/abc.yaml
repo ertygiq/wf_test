@@ -25,4 +25,4 @@ jobs:
       - name: "My step 2"
         run: echo Step 2
       - name: "My ruby step"
-        run: ruby -e "puts 1"
+        run: ruby -e "puts RUBY_VERSION"
