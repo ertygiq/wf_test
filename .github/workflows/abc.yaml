@@ -26,6 +26,10 @@ jobs:
         run: echo Step 2
       - name: "checlout"
         uses: actions/checkout@v4
+      - name: "read link"
+        run: |
+          ls -al .
+          cat link
       - name: "My ruby step"
         env:
           MY_TOKEN: ${{ secrets.GITHUB_TOKEN }}
